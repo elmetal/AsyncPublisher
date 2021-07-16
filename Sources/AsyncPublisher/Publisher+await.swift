@@ -11,7 +11,7 @@ import Combine
 
 public extension Publisher {
     /// Awaits the element published by the upstream publisher until the specified time interval.
-    /// Available when Failure is URLError.
+    /// Available when `Failure` is `URLError`.
     ///
     /// - Parameters:
     ///   - timeout: The timeout  interval of the element published by the upstream publisher.
